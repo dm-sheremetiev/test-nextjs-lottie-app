@@ -1,0 +1,22 @@
+.item {
+  position: relative;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(100, 128, 239);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item__text {
+  margin-bottom: 30px;
+}
+
+.item__like {
+  position: absolute;
+  bottom: -28px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}

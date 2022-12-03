@@ -1,0 +1,41 @@
+.container {
+  min-height: 100vh;
+  padding: 100px 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  padding: 20px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.load_button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 45px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid rgb(252, 169, 169);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+}
+
+.load_button:hover {
+  background-color: black;
+  color: white;
+}

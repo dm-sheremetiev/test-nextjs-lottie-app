@@ -7,9 +7,45 @@
   align-items: center;
 }
 
+.red_bird {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+
+.red_bird::after {
+  content: '<== Click me for loop my animation!';
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 230px;
+  top: 15%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
+}
+
+.buttons {
+ margin-top: 50px;
+ display: flex;
+ gap: 15px;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  scale: 1.03;
 }
 
 .title a:hover,
@@ -22,6 +58,8 @@
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
+  display: flex;
+  align-items: center;
 }
 
 .title {
